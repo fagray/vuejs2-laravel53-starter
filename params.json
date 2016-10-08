@@ -1,0 +1,6 @@
+{
+  "name": "Basic Vue JS 2 Starter With Laravel 5.3",
+  "tagline": "A starter template for VueJs 2.0 with Laravel 5.3",
+  "body": "### Welcome Aboard !\r\nThis starter template is boostrapped with Laravel 5.3, VueJS 2.0, VueRouter,VueResource and so much more !\r\n\r\n### Features\r\n\r\n- Basic Routing with VueRouter 2.0\r\n- A VueJS Starter Component\r\n- Web API call with VueResource\r\n- List Rendering with VueJS\r\n\r\n### Installation\r\n\r\n1. Clone or download the repository\r\n2. Run composer install\r\n3. Run npm install\r\n4. Rename .env.example to .env\r\n5. Change your database credentials on the .env file\r\n6. Run the migrations and add a sample data on your database.\r\n7. Run php artisan serve\r\n8. And you're good to go !\r\n\r\n\r\n### Support or Contact\r\n\r\nThis project is open for all. Any contributions are so much welcome. Feel free to open a pull request ! Thank you very much.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
