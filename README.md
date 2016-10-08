@@ -1,5 +1,7 @@
 #Welcome Aboard !
 
+![alt tag](https://github.com/fagray/vuejs2-laravel53-starter/blob/master/blob/img/main.png)
+
 This starter template is boostrapped with Laravel 5.3, VueJS 2.0, VueRouter,VueResource and so much more !
 
 #Features
