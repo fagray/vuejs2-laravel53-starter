@@ -12,11 +12,14 @@ require('./bootstrap');
  * the body of the page. From here, you may begin adding components to
  * the application, or feel free to tweak this setup for your needs.
  */
-
-import Room       from './components/Room.vue'
 import VueRouter  from 'vue-router'
 import router     from './router'
 import Vue        from 'vue'
+
+Vue.use(VueRouter)
+
+// lazy load components
+const Room = (resolve) => require(['./components/Room.vue'], resolve)
 
 // Create and mount root instance.
 // Make sure to inject the router.
