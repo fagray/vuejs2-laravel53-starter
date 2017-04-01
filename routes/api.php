@@ -13,6 +13,15 @@ use Illuminate\Http\Request;
 |
 */
 
+
+// sample API
+Route::get('/rooms',function(){
+
+	return \App\Room::all();
+	
+});
+
+
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');

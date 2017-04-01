@@ -17,13 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// sample API
-Route::get('/api/rooms',function(){
 
-
-	return \App\Room::all();
-	
-
-});
-
-Route::get('/{vue?}', function () { return view('layouts.app'); })->where('vue', '[\/\w\.-]*');
+Route::get('/{vue?}', function () { return view('welcome'); })->where('vue', '[\/\w\.-]*');
