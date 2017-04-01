@@ -11,6 +11,8 @@
 |
 */
 
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -23,3 +25,5 @@ Route::get('/api/rooms',function(){
 	
 
 });
+
+Route::get('/{vue?}', function () { return view('layouts.app'); })->where('vue', '[\/\w\.-]*');
