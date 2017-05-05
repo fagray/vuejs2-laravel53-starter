@@ -17,6 +17,6 @@ export default new VueRouter({
         { path: '/foo', component: foo },
         { path: '/bar', component: bar },
         { path: '/rooms', component: require('./components/Room.vue') }, // example of route with a seperate component
-        { path:*?}
+        
       ]
 });
