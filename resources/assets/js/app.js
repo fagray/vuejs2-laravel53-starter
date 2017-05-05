@@ -18,8 +18,6 @@ import Vue        from 'vue'
 
 Vue.use(VueRouter)
 
-// lazy load components
-const Room = require('./components/Room.vue')
 const home = require('./components/home.vue')
 
 // Create and mount root instance.
@@ -30,7 +28,6 @@ new Vue({
   router,
 
   components : {
-    Room,
     home
   },
 
