@@ -9,6 +9,7 @@
                     <thead>
                         <tr>
                             <th>Room Name</th>
+                            <th>Room test</th>
                         </tr>
                     </thead>
                     <tbody>

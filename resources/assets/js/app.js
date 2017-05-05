@@ -19,7 +19,8 @@ import Vue        from 'vue'
 Vue.use(VueRouter)
 
 // lazy load components
-const Room = (resolve) => require(['./components/Room.vue'], resolve)
+const Room = require('./components/Room.vue')
+const home = require('./components/home.vue')
 
 // Create and mount root instance.
 // Make sure to inject the router.
@@ -29,7 +30,8 @@ new Vue({
   router,
 
   components : {
-    Room
+    Room,
+    home
   },
 
   data : {
