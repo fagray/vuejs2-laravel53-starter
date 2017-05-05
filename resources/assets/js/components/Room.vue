@@ -13,10 +13,13 @@
                     </thead>
                     <tbody>
                         <tr v-for="room in rooms" >
-                            <td> {{ room.name }} </td>
+                            
+                            <td> <router-link :to=" {name: 'rooms_read', params:{ room: room.name}} " class="list-group-item ">{{ room.name }}</router-link> </td>
+                            
                         </tr>
                     </tbody>
                 </table>
+                <router-view></router-view>
             </div>
         </div>
     </div>

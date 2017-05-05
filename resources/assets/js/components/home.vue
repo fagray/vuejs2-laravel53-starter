@@ -1,13 +1,10 @@
 <template>
-    
-
-        <div class="container">
-
+    <div class="container-fluid">
            
           <h3> Basic Routing </h3>
 
-          <div class="row">
-            <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-3">
                 <div class="list-group">
                     <router-link to="/" class="list-group-item ">Home</router-link>
                     <router-link to="/foo" class="list-group-item ">Foo</router-link>
