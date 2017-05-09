@@ -17,5 +17,8 @@
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.0",
     "vue-strap": "^1.1.28"
+  },
+  "dependencies": {
+    "vuex": "^2.3.1"
   }
 }

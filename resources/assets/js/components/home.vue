@@ -2,6 +2,8 @@
     <div class="container-fluid">
            
           <h3> Basic Routing </h3>
+          <h3> {{ count }} </h3>
+          <h3> {{ $store.state.count }} </h3>
 
         <div class="row">
             <div class="col-md-3">
@@ -12,8 +14,9 @@
                     <router-link to="/rooms" class="list-group-item ">Rooms</router-link>
                 </div>
             </div>
-
-            <router-view class="view"></router-view>
+            <div class="col-md-9">
+                <router-view class="view"></router-view>
+            </div>
 
         </div>
 
@@ -24,3 +27,14 @@
 
 
 </template>
+<script>
+    export default{
+
+        computed: {
+            count () {
+                return this.$store.state.count
+            }
+          },
+    }
+
+</script>

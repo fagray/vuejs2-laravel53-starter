@@ -15,17 +15,30 @@ require('./bootstrap');
 import VueRouter  from 'vue-router'
 import router     from './router'
 import Vue        from 'vue'
+import Vuex 	  from 'vuex'
+import  mutations from './mutations/mutations'
+import  state     from './state'
+import  courses     from './store/courses'
 
 Vue.use(VueRouter)
 
-const home = require('./components/home.vue')
+Vue.use(Vuex)
 
+const home = require('./components/home.vue')
+const store = new Vuex.Store({
+  state,
+  mutations,
+  modules:{
+  	courses
+  }
+})
 // Create and mount root instance.
 // Make sure to inject the router.
 // Route components will be rendered inside <router-view>.
 new Vue({
 
   router,
+  store,
 
   components : {
     home

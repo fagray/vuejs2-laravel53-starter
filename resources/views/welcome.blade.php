@@ -8,7 +8,7 @@
 <body>
 
     <div id="app">
-     <home></home>
+        <home></home>
     </div>
 
 {{-- / setting value to your CSRFglobal variables  --}}

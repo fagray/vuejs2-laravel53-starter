@@ -1,10 +1,12 @@
 <template>
     
-    <div class="container">
-        <h3>Rooms List</h3>
+    <div class="">
+        <h4>Rooms List</h4>
         <div class="row">
            
-            <div class="col-md-8">
+            <div class="col-md-4">
+                <button @click="increment">+</button>
+                <button @click="decrement">-</button>
                 <table class="table ">
                     <thead>
                         <tr>
@@ -19,6 +21,8 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div class="col-md-4">
                 <router-view></router-view>
             </div>
         </div>
@@ -32,9 +36,9 @@
 
      
         mounted() {
-
             console.log('Room Component ready.')
             this.fetchRoomList()
+
            
         },
 
@@ -53,7 +57,15 @@
                     this.$set(this,'rooms', response.data )
 
                 });
+            },
+            increment(){
+                this.$store.commit('increment')
+            },
+            decrement(){
+                this.$store.commit('decrement')
             }
+
+
         }
 
        
