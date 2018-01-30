@@ -1,15 +1,16 @@
-#Welcome Aboard !
+# Welcome Aboard !
 
-This starter template is boostrapped with Laravel 5.4, VueJS 2.0, VueRouter,VueResource and so much more !
+![alt tag](https://github.com/fagray/vuejs2-laravel53-starter/blob/master/blob/img/main.png)
 
-#Features
+This starter template is boostrapped with Laravel 5.3, VueJS 2.0, VueRouter,VueResource and so much more !
 
+# Features
 - Basic Routing with VueRouter 2.0
 - A VueJS Starter Component
 - Web API call with VueResource
 - List Rendering with VueJS
 
-#Installation
+# Installation
 
 - Clone or download the repository
 - Run composer install
@@ -20,15 +21,6 @@ This starter template is boostrapped with Laravel 5.4, VueJS 2.0, VueRouter,VueR
 - Run php artisan serve
 - And you're good to go !
 
-#Support or Contact
+# Support or Contact
 
 This project is open for all. Any contributions are so much welcome. Feel free to open a pull request ! Thank you very much.
-
-#Changes
-
-04/01/2017
-
-- Upgraded to Laravel 5.4
-
-
-

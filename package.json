@@ -13,7 +13,7 @@
     "laravel-elixir-vue-2": "^0.2.0",
     "laravel-elixir-webpack-official": "^1.0.2",
     "lodash": "^4.16.2",
-    "vue": "^2.0.1",
+    "vue": "^2.5.11",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.0",
     "vue-strap": "^1.1.28"
