@@ -1,3 +1,6 @@
+# This repository is Unmaintained. Please use the newer version with Laravel 5.8 and Vue.js 2 along with Vuex.
+https://github.com/fagray/laravel-vuejs-5-8-starter
+
 # Welcome Aboard !
 
 ![alt tag](https://github.com/fagray/vuejs2-laravel53-starter/blob/master/blob/img/main.png)
